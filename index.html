@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <button id="scrollTopBtn">↑</button>
+    <button id="scrollTopBtn">
+    <img src="your-icon.png" alt="Top" />
+</button>
+
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h2 class="logo">MyBrand</h2>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="dark-toggle" id="darkModeBtn">Dark Mode</button>
+    </nav>
+
+    <section id="hero" class="hero fade-in">
+    <h1>Welcome to Horla TechHub</h1>
+    <p id="animatedText"></p>
+    <button class="hero-btn" id="heroBtn">Get Started</button>
+</section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services fade-in">
+        <h2>Our Services</h2>
+
+        <div class="service-container">
+            <div class="service-card">
+                <h3>Web Design</h3>
+                <p>Beautiful, modern, and responsive designs.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Fast and powerful websites built from scratch.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Branding</h3>
+                <p>Helping you build a brand customers remember.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 MyBrand. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <a href="https://wa.me/234-9068417509" 
+   class="whatsapp-float" 
+   target="_blank" 
+   id="whatsappBtn">
+    <img src="https://cdn.jsdelivr.net/gh/edent/SuperTinyIcons/images/svg/whatsapp.svg" alt="WhatsApp">
+</a>
+<div class="wa-popup">Chat with us</div>
+
+
+</body>
+</html>
